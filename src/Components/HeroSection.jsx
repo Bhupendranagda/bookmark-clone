@@ -40,7 +40,7 @@ const HeroSection = () => {
         <img className="z-10" src={Hero} alt="" />
         <div
           className="bg-[#5267df] absolute top-[40%] left-[50%] 
-        h-[300px] w-[100%] rounded-l-full -z-10 mobile:h-[200px] mobile:left-[40%]   "
+        h-[300px] w-[60%] rounded-l-full -z-10 mobile:h-[200px] mobile:left-[40%]   "
         ></div>
       </div>
     </div>
