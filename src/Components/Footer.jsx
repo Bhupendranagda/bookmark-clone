@@ -5,7 +5,11 @@ import twitter from "../images/icon-twitter.svg";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col mt-20 gap-10 bg-[#5267df] justify-center items-center mobile:ml-0  mobile:mr-0 ">
+    <div
+      className="flex flex-col mt-20 gap-10 bg-[#5267df]
+     justify-center items-center mobile:ml-0 mobile:mr-0 
+      "
+    >
       <div className="mt-10 text-white">35,000 Already Joined</div>
       <div className="items-center flex justify-center text-center text-2xl font-bold text-white">
         Stay up-to-date with what <br /> we're doing
@@ -19,7 +23,10 @@ const Footer = () => {
           Contact Us
         </button>
       </div>
-      <div className="bg-[#161a2a] w-[100%] h-[100px] flex items-center justify-start  ">
+      <div
+        className="bg-[#161a2a] w-[100%] h-[100px] flex 
+      items-center justify-start mobile:flex-col  "
+      >
         <img className="cursor-pointer ml-[150px] " src={logo} alt="" />
         <div className="flex ml-20">
           <p className="ml-5 text-gray-400">FEATURES</p>
